@@ -5,6 +5,7 @@ import { thunk } from "redux-thunk";
 const store = configureStore({
     reducer: rootReducer,
     middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(thunk),
+    devTools: true,
   });
 
 const token = localStorage.getItem("token") || null;
