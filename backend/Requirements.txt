@@ -1,0 +1,7 @@
+django
+djangorestframework
+channels
+channels-redis
+redis
+daphne
+gunicorn
